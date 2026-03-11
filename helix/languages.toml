@@ -1,0 +1,21 @@
+[[language]]
+name = "text"
+indent = { tab-width = 4, unit = " " }
+scope = "text.txt"
+file-types = ["txt"]
+
+[[language]]
+name = "python"
+indent = { tab-width = 4, unit = " " }
+language-servers = ["ruff"]
+auto-format = true
+scope = "source.python"
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "css"
+indent = { tab-width = 2, unit = " " }
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
