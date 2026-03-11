@@ -1,0 +1,5 @@
+theme = "nord-night"
+[editor]
+bufferline = "multiple"
+cursorline = true
+end-of-line-diagnostics = "hint"
